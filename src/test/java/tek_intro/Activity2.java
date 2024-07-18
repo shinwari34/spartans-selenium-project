@@ -4,15 +4,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Activity2 {
 
-    //Open Chrome Browser
-    //And navigate to facebook.com
-    //Push the activity to your repository
+    //Navigate to "https://dev.insurance.tekschool-students.com/"
+    //Maximize windows
+    //Print Title
+    //Close Browser.
+    //Push changes to repository
 
     public static void main( String [] args){
 
-        ChromeDriver chromeDriver = new ChromeDriver();
+        ChromeDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
 
-        chromeDriver.get("https://facebook.com");
+        driver.get("https://dev.insurance.tekschool-students.com/");
+
+        String title = driver.getTitle();
+        System.out.println(title);
+        driver.quit();
+
 
 
     }
