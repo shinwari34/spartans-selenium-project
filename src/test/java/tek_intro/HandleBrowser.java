@@ -1,4 +1,4 @@
-package tek_class;
+package tek_intro;
 
 
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,10 +11,13 @@ public class HandleBrowser {
         ChromeDriver chromeDriver = new ChromeDriver();
 
         // use this method to maximize browser
-        ChromeDriver.manage().window().maximize();
+        //ChromeDriver.manage().window().maximize();
 
 
         chromeDriver.get("Https://google.com");
+
+        String title = chromeDriver.getTitle();
+        System.out.println(title);
 
     }
 }
