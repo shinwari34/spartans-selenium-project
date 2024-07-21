@@ -1,9 +1,10 @@
-package CrossBrowsing;
+package CrossBrowsing_week1_day3;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import java.util.Scanner;
 
 
 public class CrossBrowsingHandling {
@@ -22,9 +23,10 @@ public class CrossBrowsingHandling {
             driver = new FirefoxDriver();
         } else if (browserType.equalsIgnoreCase("edge")) {
             driver = new EdgeDriver();
-        }else {
+        } else {
             throw new RuntimeException("Wrong driver");
         }
 
         driver.get("https://google.com");
+    }
 }

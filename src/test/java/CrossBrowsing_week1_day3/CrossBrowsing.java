@@ -1,8 +1,6 @@
-package CrossBrowsing;
+package CrossBrowsing_week1_day3;
 
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
 public class CrossBrowsing {
 
