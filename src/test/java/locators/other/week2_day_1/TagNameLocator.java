@@ -1,16 +1,20 @@
-package other;
-
-public class TagNameLocator {
+package locators.other.week2_day_1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import java.util.List;
 
+public class TagNameLocator {
+
+
     public static void main(String[] args) {
-        public static void main (String[]args){
+
             WebDriver driver = new ChromeDriver();
+
+
             driver.manage().window().maximize();
             driver.get("https://www.bbc.com/");
 
@@ -44,7 +48,8 @@ import java.util.List;
             }
 
 
+
+
             driver.quit();
         }
     }
-}

@@ -1,4 +1,4 @@
-package other;
+package locators.other.week2_day_1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
