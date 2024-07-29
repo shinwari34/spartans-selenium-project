@@ -8,14 +8,8 @@ import java.time.Duration;
 
 public class ActivityReusableObject {
 
-    /*
-    in retail app, sign in with invalid username and password
-    and get the error message.
-    //Create SeleniumUtility on your own
-     */
-public class ActivityReusableObject {
 
-    /*
+     /*
     in retail app, sign in with invalid username and password
     and get the error message.
     //Create SeleniumUtility on your own
@@ -40,5 +34,4 @@ public class ActivityReusableObject {
         System.out.println(errorMessage);
         driver.quit();
     }
-
 }
