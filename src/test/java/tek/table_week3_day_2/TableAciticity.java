@@ -1,4 +1,4 @@
-package tek.table;
+package tek.table_week3_day_2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
