@@ -37,7 +37,7 @@ public class UsefulMethods {
 
         String classAttribute = newCompantyElement.getAttribute("class");
         System.out.println(classAttribute);
-        driver.quit();
+       // driver.quit();
     }
 
     public static void clickOnElement(WebDriver driver, By locator) {
