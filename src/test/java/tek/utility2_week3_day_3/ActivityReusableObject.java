@@ -32,6 +32,6 @@ public class ActivityReusableObject {
         String errorMessage = utility.getElementText(By.className("error"));
 
         System.out.println(errorMessage);
-        driver.quit();
+       // driver.quit();
     }
 }
